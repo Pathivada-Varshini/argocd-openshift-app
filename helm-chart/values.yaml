@@ -1,0 +1,13 @@
+replicaCount: 1
+
+image:
+  repository: my-nginx-app
+  tag: latest
+
+service:
+  type: ClusterIP
+  port: 80
+
+route:
+  enabled: true
+  host: nginx-app.apps.example.com

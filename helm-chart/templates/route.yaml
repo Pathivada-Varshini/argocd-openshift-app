@@ -1,0 +1,11 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: nginx-app-route
+spec:
+  host: {{ .Values.route.host }}
+  to:
+    kind: Service
+    name: nginx-app-service
+  port:
+    targetPort: 80

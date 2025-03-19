@@ -1,0 +1,4 @@
+apiVersion: v2
+name: nginx-app
+description: A simple Nginx-based application
+version: 1.0.0
