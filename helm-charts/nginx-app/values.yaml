@@ -1,5 +1,5 @@
 image:
-  repository: <your-registry>/nginx-custom
+  repository: varshinipathivada20/nginx-custom
   tag: latest
 
 pvc:
