@@ -1,0 +1,11 @@
+image:
+  repository: <your-registry>/nginx-custom
+  tag: latest
+
+pvc:
+  name: nginx-pvc
+  size: 5Gi
+
+config:
+  welcomeMessage: "Welcome to NGINX on ROSA!"
+  appKey: "MySecretKey123"
