@@ -10,4 +10,4 @@ pvc:
   size: 5Gi
 
 secret:
-  appKey: MySecretKey123
+  appKey: "MySecretKey123"
