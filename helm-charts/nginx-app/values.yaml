@@ -1,11 +1,13 @@
 image:
   repository: varshinipathivada20/nginx-custom
-  tag: latest
+  tag: v1.0
+
+config:
+  welcomeMessage: "Welcome to NGINX on ROSA!"
 
 pvc:
   name: nginx-pvc
   size: 5Gi
 
-config:
-  welcomeMessage: "Welcome to NGINX on ROSA!"
-  appKey: "MySecretKey123"
+secret:
+  appKey: MySecretKey123
